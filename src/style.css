@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  nav.fixed {
+    @apply animate-[slideDown_100ms] border-x border-b border-black/30 bg-black/50 backdrop-blur-md;
+  }
+}
