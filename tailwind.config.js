@@ -13,6 +13,9 @@ module.exports = {
           "100%": { transform: "translateY(-100%)", position: "absolute" },
         },
       },
+      fontFamily: {
+        Roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   variants: {
