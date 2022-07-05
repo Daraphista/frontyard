@@ -106,8 +106,21 @@
         ></iframe>
       </section>
       <section
-        class="no-scrollbar flex h-screen w-full snap-mandatory flex-col items-center justify-center overflow-x-scroll"
+        class="no-scrollbar group flex h-screen w-full snap-mandatory flex-col items-center justify-center overflow-x-scroll"
+        id="carousel"
       >
+        <button
+          class="absolute left-10 z-10 hidden h-14 w-14 items-center justify-center rounded-full bg-black/50 backdrop-blur-md hover:bg-neutral-900/50"
+          id="carousel-button-left"
+        >
+          <i class="fa-solid fa-arrow-left text-3xl"></i>
+        </button>
+        <button
+          class="absolute right-10 z-10 hidden h-14 w-14 items-center justify-center rounded-full bg-black/50 backdrop-blur-md hover:bg-neutral-800/50 group-hover:flex"
+          id="carousel-button-right"
+        >
+          <i class="fa-solid fa-arrow-right text-3xl"></i>
+        </button>
         <div class="flex">
           <img
             class="mr-5 translate-x-[calc(max(1024px,_100vw)/2_-_496px)] snap-center rounded-3xl"
