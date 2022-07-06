@@ -12,21 +12,40 @@
     <nav
       class="fixed absolute top-0 z-20 flex w-full max-w-7xl animate-[slideUp_200ms] items-center justify-between rounded-b-3xl px-10"
     >
-      <img src="./images/nav-logo.png" alt="nav logo" />
-      <div>
+      <img class="mt-5 mb-auto" src="./images/nav-logo.png" alt="nav logo" />
+      <div class="flex">
         <a
-          href=""
-          class="p-10 text-lg text-white [text-shadow:0px_0px_5px_black]"
+          href="index.html"
+          class="p-10 text-lg text-white transition-transform [text-shadow:0px_0px_5px_black] hover:-translate-y-1"
           >Home</a
         >
+        <div
+          class="group p-10 text-lg text-white [text-shadow:0px_0px_5px_black]"
+        >
+          Menu <i class="fa-solid fa-caret-down ml-3 cursor-pointer"></i>
+          <div
+            class="hidden scale-0 flex-col transition-transform group-hover:flex group-hover:scale-100"
+          >
+            <a
+              href="meals.html"
+              class="pt-2 pb-1 transition-transform hover:-translate-y-1"
+              >Meals</a
+            >
+            <a
+              href="snacks.html"
+              class="py-1 transition-transform hover:-translate-y-1"
+              >Snacks</a
+            >
+            <a
+              href="drinks.html"
+              class="py-1 transition-transform hover:-translate-y-1"
+              >Drinks</a
+            >
+          </div>
+        </div>
         <a
           href=""
-          class="p-10 text-lg text-white [text-shadow:0px_0px_5px_black]"
-          >Menu <i class="fa-solid fa-caret-down ml-3"></i
-        ></a>
-        <a
-          href=""
-          class="p-10 text-lg text-white [text-shadow:0px_0px_5px_black]"
+          class="p-10 text-lg text-white transition-transform [text-shadow:0px_0px_5px_black] hover:-translate-y-1"
           >Contact</a
         >
       </div>
