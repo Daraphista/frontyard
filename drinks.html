@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <script src="bundle.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="flex flex-col items-center font-Roboto">
+    <nav
+      class="fixed absolute top-0 z-20 flex w-full max-w-7xl animate-[slideUp_200ms] items-center justify-between rounded-b-3xl px-10"
+    >
+      <img class="mt-5 mb-auto" src="./images/nav-logo.png" alt="nav logo" />
+      <div class="flex">
+        <a
+          href="index.html"
+          class="p-10 text-lg text-white transition-transform [text-shadow:0px_0px_5px_black] hover:-translate-y-1"
+          >Home</a
+        >
+        <div
+          class="group p-10 text-lg text-white [text-shadow:0px_0px_5px_black]"
+        >
+          Menu <i class="fa-solid fa-caret-down ml-3 cursor-pointer"></i>
+          <div
+            class="hidden scale-0 flex-col transition-transform group-hover:flex group-hover:scale-100"
+          >
+            <a
+              href="meals.html"
+              class="pt-2 pb-1 transition-transform hover:-translate-y-1"
+              >Meals</a
+            >
+            <a
+              href="snacks.html"
+              class="py-1 transition-transform hover:-translate-y-1"
+              >Snacks</a
+            >
+            <a
+              href="drinks.html"
+              class="py-1 transition-transform hover:-translate-y-1"
+              >Drinks</a
+            >
+          </div>
+        </div>
+        <a
+          href=""
+          class="p-10 text-lg text-white transition-transform [text-shadow:0px_0px_5px_black] hover:-translate-y-1"
+          >Contact</a
+        >
+      </div>
+    </nav>
+    <header
+      class="flex h-screen w-full items-center justify-center bg-[url(./images/about-us-background2.jpeg)] bg-cover bg-fixed bg-center bg-no-repeat"
+    >
+      <img class="max-h-full" src="./images/header-logo.png" alt="" />
+    </header>
+    <main
+      class="flex w-full flex-col items-center bg-[url(./images/main-background.jpeg)] bg-cover bg-fixed bg-center bg-no-repeat text-white"
+    >
+      <section
+        class="flex h-screen w-screen max-w-7xl items-center justify-between px-36"
+      >
+        <img class="rounded-2xl" src="images/redhorse.png" alt="redhorse" />
+        <div>
+          <h2 class="mb-10 text-4xl">RED HORSE</h2>
+        </div>
+      </section>
+      <section
+        class="flex h-screen w-screen max-w-7xl flex-row-reverse items-center justify-between px-36"
+      >
+        <img
+          class="rounded-2xl"
+          src="images/san-mig-light.jpeg"
+          alt="san mig light"
+        />
+        <div>
+          <h2 class="mb-10 text-4xl">SAN MIGUEL LIGHT</h2>
+        </div>
+      </section>
+      <section
+        class="flex h-screen w-screen max-w-7xl items-center justify-between px-36"
+      >
+        <img
+          class="rounded-2xl"
+          src="images/fundador.jpeg"
+          alt="fundador light"
+        />
+        <div>
+          <h2 class="mb-10 text-4xl">FUNDADOR LIGHT</h2>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="w-full bg-[url(./images/about-us-background2.jpeg)] bg-cover bg-fixed bg-center bg-no-repeat text-white"
+    >
+      <div
+        class="flex w-full flex-col items-center bg-black/50 backdrop-blur-md"
+      >
+        <section
+          class="flex w-full max-w-7xl flex-wrap gap-y-10 gap-x-36 px-10 py-8"
+        >
+          <div class="flex flex-col">
+            <h2 class="text-lg">Inside The Frontyard</h2>
+            <a href="" class="py-2 text-neutral-400 hover:text-white"
+              >About Us</a
+            >
+            <a href="" class="py-1 text-neutral-400 hover:text-white"
+              >Opening Hours</a
+            >
+            <a href="" class="py-1 text-neutral-400 hover:text-white"
+              >Location</a
+            >
+            <a href="" class="py-1 text-neutral-400 hover:text-white"
+              >Gallery</a
+            >
+          </div>
+          <div class="flex flex-col">
+            <h2 class="text-lg">Navigate</h2>
+            <a href="" class="py-2 text-neutral-400 hover:text-white">Home</a>
+            <a href="" class="py-1 text-neutral-400 hover:text-white">Meals</a>
+            <a href="" class="py-1 text-neutral-400 hover:text-white">Snacks</a>
+            <a href="" class="py-1 text-neutral-400 hover:text-white">Drinks</a>
+          </div>
+          <div class="mr-auto flex flex-col">
+            <h2 class="text-lg">Contact Us</h2>
+            <p class="cursor-copy py-2 text-neutral-400 hover:text-white">
+              <i class="fa-solid fa-phone mr-1"></i> +63 905 800 0375
+            </p>
+            <a
+              href="https://www.facebook.com/theFrontyardEchague"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="py-1 text-neutral-400 hover:text-white"
+              ><i class="fa-brands fa-facebook-square mr-1 text-blue-500"></i>
+              Facebook Page</a
+            >
+          </div>
+          <div class="flex flex-col gap-2">
+            <h2 class="text-lg">Opening Hours</h2>
+            <ul class="text-neutral-400">
+              <li class="flex w-80 items-center gap-3">
+                <span>Sunday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Monday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="min-w-[94px] text-center">Closed</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Tuesday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Wednesday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Thursday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Friday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+              <li class="flex w-80 items-center gap-3">
+                <span>Saturday</span>
+                <div class="h-px flex-1 bg-neutral-400"></div>
+                <span class="text-right">10am - 10pm</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="w-full max-w-7xl px-10">
+          <hr class="w-full border-neutral-500" />
+        </div>
+        <section
+          class="flex w-full max-w-7xl items-center justify-between gap-4 px-10 py-5"
+        >
+          <img
+            src="./images/header-logo.png"
+            class="h-8"
+            alt="frontyard logo"
+          />
+          <p class="text-neutral-400">
+            © 2022 The Frontyard. All Rights Reserved
+          </p>
+          <p class="ml-auto flex text-neutral-400">
+            by Angelo Mendoza
+            <a
+              class="ml-1 px-1 hover:text-white"
+              href="https://www.linkedin.com/in/angelo-mendoza-17738b227/"
+              target="_blank"
+              rel="noopener norefferer"
+              ><i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              class="px-1 hover:text-white"
+              href="https://github.com/Daraphista"
+              target="_blank"
+              rel="noopener norefferer"
+              ><i class="fa-brands fa-github-square"></i
+            ></a>
+            <a
+              class="px-1 hover:text-white"
+              href="https://twitter.com/TechnoSapien_"
+              target="_blank"
+              rel="noopener norefferer"
+              ><i class="fa-brands fa-twitter-square"></i
+            ></a>
+            <a
+              class="px-1 hover:text-white"
+              href="mailto:angeloraphaelmendoza@gmail.com"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
