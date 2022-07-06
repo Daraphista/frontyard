@@ -36,7 +36,7 @@ const scrolledToStart = () => {
 };
 
 const scrolledToEnd = () => {
-  return carousel.scrollLeft + carousel.clientWidth === carousel.scrollWidth;
+  return carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth;
 };
 
 carousel.addEventListener("scroll", () => {
